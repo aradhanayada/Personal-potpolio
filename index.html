@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/images/favicon.ico"
+    />
+
+    <title>Aradhana Yadav | Frontend Developer.</title>
+
+    <meta
+      name="description"
+      content="a young and passonate frontend developer  Proficient in HTML, CSS, Bootstrap,TailwindCss, JavaScript and ReactJs."
+    />
+    <meta
+      name="keywords"
+      content="Aradhana Yadav, my personal portfolio frontend developer Proficient in HTML, CSS, Bootstrap,Tailwind JavaScript and ReactJs."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- ***** Navbar ***** -->
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#home">Aradhana.Dev</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#technology">Technology</a></li>
+          <li>
+            <a class="nav-link" href="./assets/images/Ara-Resume-S-01.pdf" target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+
+          <!-- Dark Mode Toggle Button -->
+          <li class="navItem nav-link">
+            <label class="switch" id="themeToggle">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <!-- ***** Home Section ***** -->
+      <section id="home" class="profile__section">
+        <div class="">
+          <div class="profile__pic">
+            <img
+              src="./assets/images/profile-pic.png"
+              alt="Aradhana Yadav profile picture"
+            />
+          </div>
+        </div>
+        <div class="home__section__text-container">
+          <div class="home__section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Aradhana Yadav</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-1"
+                onclick="window.open('./assets/images/Ara-Resume-S-01.pdf')"
+              >
+                Download CV
+              </button>
+              <button class="btn btn-2" onclick="location.href='./#contact'">
+                Contact Info
+              </button>
+            </div>
+            <div id="socials-container">
+              <img
+                src="./assets/images/linkedin.svg"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="window.open('https://www.linkedin.com/in/khush-chaurasia-71b0a4214/', '_blank')"
+              />
+              <img
+                src="./assets/images/github.svg"
+                alt="My Github profile"
+                class="icon"
+                onclick="window.open('https://github.com/Khush0031/', '_blank')"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ***** Projects Section ***** -->
+      <section id="projects" class="projects__section">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h2 class="title">Projects</h2>
+        <div class="projects__card-container">
+          <div class="projects__card">
+            <div class="projects__details-container">
+              <div class="project-img-container">
+                <img
+                  src="./assets/images/personal-porfolio.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-title">Project 01: Personal Portfolio</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('https://github.com/Khush0031/Personal-Portfolio-01.github.io', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('https://khush0031.github.io/Personal-Portfolio-01.github.io/', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="projects__card">
+            <div class="projects__details-container">
+              <div class="project-img-container">
+                <img
+                  src="./assets/images/Resume-Template.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-title">Project 02: Resume Template</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('https://github.com/aradhanayada/Resume-project', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="projects__card">
+            <div class="projects__details-container">
+              <div class="project-img-container">
+                <img
+                  src="./assets/images/IPDC-Clone.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-title">Project 03: IPDC Clone</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('https://github.com/aradhanayada/web-page-clone?tab=readme-ov-file', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('https://aradhanayada.github.io/web-page-clone/', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="projects__card">
+            <div class="projects__details-container">
+              <div class="project-img-container">
+                <img
+                  src="./assets/images/Drum Kit.png"
+                  alt="Project 4"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-title">Project 04: Drum Kit</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('https://github.com/Khush0031/Drum-Kit', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-2"
+                  onclick="window.open('https://khush0031.github.io/Drum-Kit/', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ***** Technology ***** -->
+      <section class="technology__section" id="technology">
+        <p class="section__text__p1">Browse My Tech Stack</p>
+        <h2 class="title">Technology</h2>
+        <div class="tech__logos">
+          <img
+            src="./assets/images/icons8-html.svg"
+            class="tech__logo"
+            alt="HTML Logo"
+          />
+          <img
+            src="./assets/images/icons8-css.svg"
+            class="tech__logo"
+            alt="CSS Logo"
+          />
+          <img
+            src="./assets/images/icons8-javascript.svg"
+            class="tech__logo"
+            alt="JavaScript Logo"
+          />
+          <img
+            src="./assets/images/icons8-bootstrap.svg"
+            class="tech__logo"
+            alt="Bootstrap Logo"
+          />
+          <img
+            src="./assets/images/icons8-tailwind-css.svg"
+            class="tech__logo"
+            alt="Tailwind CSS Logo"
+          />
+          <img
+            src="./assets/images/icons8-react.svg"
+            class="tech__logo"
+            alt="React Logo"
+          />
+          <img
+            src="./assets/images/icons8-c++.svg"
+            class="tech__logo"
+            alt="C++ Logo"
+          />
+          <img
+            src="./assets/images/icons8-git.svg"
+            class="tech__logo"
+            alt="Git Logo"
+          />
+          <img
+            src="./assets/images/icons8-github.svg"
+            class="tech__logo"
+            alt="Github Logo"
+          />
+        </div>
+      </section>
+      <!-- ***** About ***** -->
+      <section class="about__section" id="about">
+        <p class="section__text__p1">Get To Know More About Me</p>
+        <h2 class="title">About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p class="section__text__p1">
+              Hello, my name is Aradhana Yadav, and I am a self-taught Frontend
+              Developer passionate about learning new technologies and growing
+              as a Software Developer. I have strong design and integration
+              skills, coupled with intuitive problem-solving abilities. I am
+              proficient in JAVA and Data Structures and Algorithms (DSA), and I
+              am passionate about implementing and launching new projects. I
+              have the ability to translate business requirements into technical
+              solutions and am eager to start my career as an software engineer
+              or Frontend Engineer with a reputable firm that is driven by
+              technology.
+            </p>
+          </div>
+
+          <div class="profile__pic-container">
+            <div class="profile__pic">
+              <img
+                src="./assets/images/profile-pic.png"
+                alt="Aradhana profile picture"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ***** Contact ***** -->
+      <section class="contact__section" id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h2 class="title">Contact</h2>
+        <div class="contact__info">
+          <p class="section__text__p1">
+            Want to ask questions? or have some advice for me or just want to
+            say "Hi 👋" in any case feel free to Let me know. I will do my best
+            to respond back. 😊 The quickest way to reach out to me is via an<a
+              href="mailto:yadavaradhana9415@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link"
+              >Send an email</a
+            >
+            >or
+            <a
+              href="https://www.linkedin.com/in/aradhana-yadav-72073a239/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+      </section>
+      <!-- ***** Footer ***** -->
+      <section class="footer__section" id="footer">
+        <div id="socials-container">
+          <img
+            src="./assets/images/linkedin.svg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/aradhana-yadav-72073a239/')"
+          />
+          <img
+            src="./assets/images/github.svg"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/aradhanayada', '_blank')"
+          />
+        </div>
+        <p>
+          &copy; 2024 - Designed ❤️ & Developed 🚀 by
+          <a
+            href="https://github.com/aradhanayada"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link"
+            >Aradhana</a
+          >
+          ❣️.
+        </p>
+      </section>
+    </main>
+    <a href="#top" class="backToTop" title="Back to Top">
+      <img
+        src="./assets/images/arrow-up.svg"
+        alt="Back to Top"
+        class="backToTopImage"
+      />
+    </a>
+    <script src="./index.js"></script>
+  </body>
+</html>
