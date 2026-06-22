@@ -24,7 +24,7 @@ This portfolio website features a clean, professional design that's fully respon
 
 ## Live Demo
 
-Experience the live version of my portfolio [here](https://khush0031.github.io/Personal-Portfolio-01.github.io/). This link will take you to the deployed site, where you can explore the various sections and view my projects in detail.
+Experience the live version of my portfolio [here](https://aradhanayada.github.io/Personal-potpolio/). This link will take you to the deployed site, where you can explore the various sections and view my projects in detail.
 
 ## Viewing the Project Locally
 
